@@ -3,7 +3,6 @@ import logoSmall from "../../media/images/logo-small.svg";
 import logo from "../../media/images/logo.svg";
 import "./styles.scss";
 
-
 export const Header: React.FunctionComponent<{}> = () => {
   return (
     <header className="header">
@@ -11,4 +10,4 @@ export const Header: React.FunctionComponent<{}> = () => {
       <img className="header__logo" alt="Meema" src={logo}/>
     </header>
   )
-} 
+}
